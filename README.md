@@ -1,4 +1,4 @@
-### HI, There
+### Welcome to my project
 
 ### Compile and Deploy Contracts
 - make sure you have solana installed
