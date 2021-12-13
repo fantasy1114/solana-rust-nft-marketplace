@@ -1,94 +1,50 @@
-Contribution: 2021-11-09 20:00
+### HI, There
 
-Contribution: 2021-11-09 20:01
+### Compile and Deploy Contracts
+- make sure you have solana installed
+- make sure you have rust installed
+- install phantom wallet on the browser or any from the list
+- make sure u have a solana wallet with SOL token (devnet)
+- Config to devnet
 
-Contribution: 2021-11-09 20:02
+```
+solana config set --url devnet
+```
+- Create wallet
+```
+solana-keygen new
+```
+- Add test token to the wallet
 
-Contribution: 2021-11-09 20:03
+```
+solana airdrop 5
+```
+navigate to the rust folder
+```
+cd rust
+```
+build the project
+```
+cargo build-bpf
+```
+- After the build step completes, deploy the program to devnet
+```
+solana program deploy ./path/to/the_program.so -u devnet
+```
+- Clear js/packages/web/.env variables to create of a fresh new store
 
-Contribution: 2021-11-09 20:04
+- start the app
+```
+cd ../js/packages
+yarn && yarn bootstrap
+yarn start
+```
 
-Contribution: 2021-11-09 20:05
+# Open the site in a browser 
 
-Contribution: 2021-11-09 20:06
-
-Contribution: 2021-11-09 20:07
-
-Contribution: 2021-11-09 20:08
-
-Contribution: 2021-11-09 20:09
-
-Contribution: 2021-11-10 20:00
-
-Contribution: 2021-11-10 20:01
-
-Contribution: 2021-11-10 20:02
-
-Contribution: 2021-11-10 20:03
-
-Contribution: 2021-11-10 20:04
-
-Contribution: 2021-11-10 20:05
-
-Contribution: 2021-11-10 20:06
-
-Contribution: 2021-11-10 20:07
-
-Contribution: 2021-11-12 20:00
-
-Contribution: 2021-11-12 20:01
-
-Contribution: 2021-11-12 20:02
-
-Contribution: 2021-11-12 20:03
-
-Contribution: 2021-11-14 20:00
-
-Contribution: 2021-11-14 20:01
-
-Contribution: 2021-11-14 20:02
-
-Contribution: 2021-11-14 20:03
-
-Contribution: 2021-11-14 20:04
-
-Contribution: 2021-11-14 20:05
-
-Contribution: 2021-11-14 20:06
-
-Contribution: 2021-11-15 20:00
-
-Contribution: 2021-11-16 20:00
-
-Contribution: 2021-11-16 20:01
-
-Contribution: 2021-11-16 20:02
-
-Contribution: 2021-11-16 20:03
-
-Contribution: 2021-11-16 20:04
-
-Contribution: 2021-11-16 20:05
-
-Contribution: 2021-11-16 20:06
-
-Contribution: 2021-11-17 20:00
-
-Contribution: 2021-11-17 20:01
-
-Contribution: 2021-11-17 20:02
-
-Contribution: 2021-11-17 20:03
-
-Contribution: 2021-11-17 20:04
-
-Contribution: 2021-11-17 20:05
-
-Contribution: 2021-11-17 20:06
-
-Contribution: 2021-11-17 20:07
-
-Contribution: 2021-11-17 20:08
-
-Contribution: 2021-11-17 20:09
-
+```
+http://localhost:3000
+```
+- Now connect wallet
+- Create NFT
+- Sell NFT

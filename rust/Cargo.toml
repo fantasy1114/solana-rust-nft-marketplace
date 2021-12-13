@@ -1,0 +1,14 @@
+[workspace]
+members = [
+  "nft-candy-machine/",
+  "fair-launch/",
+  "auction/program",
+  "metaplex/program",
+  "token-vault/program",
+  "token-metadata/program",
+  "metaplex/test",
+  "token-vault/test",
+  "token-metadata/test",
+]
+exclude = [
+]
