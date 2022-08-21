@@ -39,7 +39,6 @@ cd ../js/packages
 yarn && yarn bootstrap
 yarn start
 ```
-
 # Open the site in a browser 
 
 ```
